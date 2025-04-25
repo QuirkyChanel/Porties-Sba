@@ -1,0 +1,26 @@
+.heading1 {
+    border: 1px solid purple;
+    height: 100px;
+    width: 50%;
+    font-style: italic;
+    color: blueviolet;
+
+}
+
+.Heading2 {
+    border: 1px solid plum;
+}
+
+/* Need to add transition here but not working yet/  */
+    .heading1
+    {
+    transition-timing-function: ease-in-out;
+}
+/* stylize this reg form add padding margins, button, radial Do you own a portie?/ */
+.nav-bar
+{
+    border: 2px solid greenyellow;
+    height: 100px;
+    
+    
+}
