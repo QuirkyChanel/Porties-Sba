@@ -67,10 +67,11 @@ a:hover {
 }
 
 .aboutPortie {
-    display: flex;
-    justify-content: 
+    margin-top: 10%;
 
 }
-
+.table {
+    margin-bottom: 10%;
+}
 
 
