@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 body {
   background-color: lightblue;
@@ -62,7 +63,7 @@ a:hover {
 .portieGif {
   margin-bottom: 100px;
   margin-right: 30%;
-  margin-top: -50%;
+  margin-top: -40%;
 }
 
 .aboutPortie {
