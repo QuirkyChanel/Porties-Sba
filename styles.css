@@ -1,4 +1,4 @@
-.heading1 {
+ .heading1 {
   border: 1px solid purple;
   height: 100px;
   width: 50vw;
@@ -30,13 +30,13 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .dog {
-  transition: 2s ease-in;
-  margin: 10px 0;
+  transition: 5s ease-in-out;
 }
 .dog:hover {
-  transform: rotate(360deg);
-}
+    transform: rotate(360deg);
+  }
 a:hover {
   background-color: beige;
   border-width: 100%;
@@ -65,11 +65,11 @@ a:hover {
   margin-top: -50%;
 }
 
-/*Google Font*/
+.aboutPortie {
+    display: flex;
+    justify-content: 
 
-.orbitron-<uniquifier> {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+}
+
+
+
