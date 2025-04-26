@@ -1,4 +1,4 @@
- .heading1 {
+.heading1 {
   border: 1px solid purple;
   height: 100px;
   width: 50vw;
@@ -20,7 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
 body {
   background-color: lightblue;
@@ -30,14 +29,15 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .dog {
   transition: 5s ease-in-out;
 }
 .dog:hover {
-    transform: rotate(360deg);
-  }
+  transform: rotate(360deg);
+}
 a:hover {
   background-color: beige;
   border-width: 100%;
@@ -57,21 +57,23 @@ a:hover {
   height: 300px;
   width: 200px;
   background-color: aliceblue;
-  margin-right: 50px;
-  margin-top: 100px;
+  margin-right: 25%;
+  margin-top: 300px;
+  margin-bottom: 150px;
 }
 .portieGif {
-  margin-bottom: 100px;
-  margin-right: 30%;
-  margin-top: -40%;
+  position: absolute;
+  margin-top: 200px;
+  margin-right: 50%;
+  height: 300px;
 }
 
 .aboutPortie {
-    margin-top: 10%;
-
+  margin-top: 10%;
 }
 .table {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
-
-
+.dropDown {
+    margin-top: 100px;
+}
