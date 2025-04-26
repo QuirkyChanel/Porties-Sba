@@ -1,26 +1,75 @@
 .heading1 {
-    border: 1px solid purple;
-    height: 100px;
-    width: 50%;
-    font-style: italic;
-    color: blueviolet;
-
+  border: 1px solid purple;
+  height: 100px;
+  width: 50vw;
+  font-style: italic;
+  color: blueviolet;
+  position: ;
 }
 
 .Heading2 {
-    border: 1px solid plum;
+  transition: ;
 }
 
-/* Need to add transition here but not working yet/  */
-    .heading1
-    {
-    transition-timing-function: ease-in-out;
-}
 /* stylize this reg form add padding margins, button, radial Do you own a portie?/ */
-.nav-bar
-{
-    border: 2px solid greenyellow;
-    height: 100px;
-    
-    
+.nav-bar {
+  width: 100vw;
+  background-color: azure;
+  height: 100px;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+body {
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.dog {
+  transition: 2s ease-in;
+  margin: 10px 0;
+}
+.dog:hover {
+  transform: rotate(360deg);
+}
+a:hover {
+  background-color: beige;
+  border-width: 100%;
+}
+.Right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+#RegForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 300px;
+  width: 200px;
+  background-color: aliceblue;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.portieGif {
+  margin-bottom: 100px;
+  margin-right: 30%;
+  margin-top: -50%;
+}
+
+/*Google Font*/
+
+.orbitron-<uniquifier> {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
